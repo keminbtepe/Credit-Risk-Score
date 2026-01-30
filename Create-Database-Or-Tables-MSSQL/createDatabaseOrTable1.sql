@@ -11,11 +11,11 @@ CREATE TABLE RawData_Credit(
 	income DECIMAL(18,2), --gelir
 	employment_type NVARCHAR(50), --meslek
 	work_experience_years INT, --is deneyimi
-	loan_amount DECIMAL(18,2), --kredi tutarý
+	loan_amount DECIMAL(18,2), --kredi tutari
 	loan_duration_months INT, -- vade
 	credit_history NVARCHAR(50), --kredi gecmisi
 	housing_status NVARCHAR(50), --ev durumu
-	loan_default INT -- batýk durumu (0,1)
+	loan_default INT -- batik durumu (0,1)
 );
 
 
@@ -30,4 +30,5 @@ CREATE TABLE Staging_Credit(
     credit_history NVARCHAR(255),
     housing_status NVARCHAR(255),
     loan_default NVARCHAR(255)
+
 );
